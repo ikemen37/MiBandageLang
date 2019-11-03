@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_gender">
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+
+    <string-array name="pref_gender_values">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string-array name="pref_wear_location">
+        <item>左手首</item>
+        <item>右手首</item>
+    </string-array>
+
+    <string-array name="pref_wear_location_values">
+        <item>LEFT_WRIST</item>
+        <item>RIGHT_WRIST</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit">
+        <item>メートル表示</item>
+        <item>マイル表示</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+    <string-array name="pref_lift_wrist_sensitivity">
+        <item>普通の感度</item>
+        <item>敏感</item>
+    </string-array>
+
+    <string-array name="pref_lift_wrist_sensitivity_values">
+        <item>NORMAL</item>
+        <item>SENSITIVE</item>
+    </string-array>
+
+    <string-array name="pref_night_mode">
+        <item>設定時間にオンにする</item>
+        <!--<item>日没後にオンにする</item>-->
+    </string-array>
+
+    <string-array name="pref_night_mode_values">
+        <item>SCHEDULED</item>
+        <!--<item>SUNSET</item>-->
+    </string-array>
+
+    <string-array name="pref_menu_mi_band">
+        <item>時計</item>
+        <item>歩数</item>
+        <item>距離</item>
+        <item>カロリー</item>
+        <item>心拍数</item>
+        <item>バッテリー</item>
+        <item>ステータス</item>
+        <item>天気</item>
+        <item>ワークアウト</item>
+        <item>アクティビティ</item>
+        <item>通知</item>
+        <item>その他</item>
+        <item>NFC設定</item>
+        <item>アラーム</item>
+        <item>タイマー</item>
+        <item>イベントリマインダー</item>
+        <item>設定</item>
+        <item>方位磁石</item>
+        <item>音楽</item>
+        <item>アリペイ設定</item>
+    </string-array>
+
+    <string-array name="pref_menu_mi_band_values">
+        <item>CLOCK</item>
+        <item>STEP</item>
+        <item>DISTANCE</item>
+        <item>CALORIE</item>
+        <item>HEART_RATE</item>
+        <item>BATTERY</item>
+        <item>STATUS</item>
+        <item>WEATHER</item>
+        <item>WORKOUT</item>
+        <item>ACTIVITY</item>
+        <item>NOTIFICATION</item>
+        <item>MORE</item>
+        <item>NFC</item>
+        <item>ALARM</item>
+        <item>TIMER</item>
+        <item>REMINDER</item>
+        <item>SETTINGS</item>
+        <item>COMPASS</item>
+        <item>MUSIC</item>
+        <item>ALIPAY</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_counter">
+        <item>All notifications</item>
+        <item>Once per Band icon</item>
+        <item>1 \'app\' icon</item>
+        <item>2 \'app\' icon</item>
+        <item>3 \'app\' icon</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-1</item>
+        <item>-2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>3分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>20分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>3時間</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1分</item>
+        <item>2分</item>
+        <item>3分</item>
+        <item>4分</item>
+        <item>5分</item>
+        <item>6分</item>
+        <item>7分</item>
+        <item>8分</item>
+        <item>9分</item>
+        <item>10分</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10分</item>
+        <item>20分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>3時間</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>All notifications</item>
+        <item>Once per application</item>
+        <item>One signal</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>いつもする</item>
+        <item>しない</item>
+        <item>1回だけ</item>
+        <item>2回</item>
+        <item>3回</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>振動する</item>
+        <item>ミュートする</item>
+        <item>Do not disturb (priority only)</item>
+        <item>Do not disturb (alarms only)</item>
+        <item>Do not disturb (total silence)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>デフォルトのプレイヤー</item>
+        <item>現在起動中のプレイヤー</item>
+        <item>Google Playミュージック</item>
+        <item>Spotify</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>ACTIVE</item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="touch_music_info">
+        <item>表示しない</item>
+        <item>アーティスト#曲名</item>
+        <item>アーティスト, 曲名</item>
+        <item>曲名</item>
+    </string-array>
+
+    <string-array name="touch_music_info_values">
+        <item>NONE</item>
+        <item>ARTIST#TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>TITLE</item>
+    </string-array>
+
+    <string-array name="touch_music_function_info">
+        <item>曲名</item>
+        <item>アーティスト: 曲名</item>
+        <item>アーティスト: アルバム - 曲目</item>
+    </string-array>
+
+    <string-array name="touch_music_function_info_values">
+        <item>TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>ARTIST_ALBUM_TITLE</item>
+    </string-array>
+
+    <string-array name="touch_camera_app">
+        <item>Default (root is needed)</item>
+        <item>Open Camera</item>
+    </string-array>
+
+    <string-array name="touch_camera_app_values">
+        <item></item>
+        <item>net.sourceforge.opencamera</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>オフ</item>
+        <item>1分</item>
+        <item>2分</item>
+        <item>3分</item>
+        <item>4分</item>
+        <item>5分</item>
+        <item>6分</item>
+        <item>7分</item>
+        <item>8分</item>
+        <item>9分</item>
+        <item>10分</item>
+        <item>11分</item>
+        <item>12分</item>
+        <item>13分</item>
+        <item>14分</item>
+        <item>15分</item>
+        <item>20分</item>
+        <item>30分</item>
+        <item>40分</item>
+        <item>50分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>3時間</item>
+        <item>4時間</item>
+        <item>5時間</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+        <item>660000</item>
+        <item>720000</item>
+        <item>780000</item>
+        <item>840000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>2400000</item>
+        <item>3000000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1段 (1-%1$,d chars)</item>
+        <item>2段 (1-%1$,d chars)</item>
+        <item>3段 (1-%1$,d chars)</item>
+        <item>4段 (1-%1$,d chars)</item>
+        <item>5段 (1-%1$,d chars)</item>
+        <item>6段 (1-%1$,d chars)</item>
+        <item>7段 (1-%1$,d chars)</item>
+        <item>8段 (1-%1$,d chars)</item>
+        <item>9段 (1-%1$,d chars)</item>
+        <item>10段 (1-%1$,d chars)</item>
+    </string-array>
+
+    <string-array name="notification_group_display_time">
+        <item>自動 (3 - 5秒)</item>
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+        <item>6秒</item>
+        <item>7秒</item>
+    </string-array>
+
+    <integer-array name="notification_group_display_time_values">
+        <item>0</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+
+    <integer-array name="notification_group_display_time_millis">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3200</item>
+        <item>4400</item>
+        <item>5600</item>
+        <item>6700</item>
+        <item>7800</item>
+    </integer-array>
+
+    <string-array name="touch_recognition_press">
+        <item>なし</item>
+        <item>タッチ</item>
+        <item>2回タッチ</item>
+        <item>3回タッチ</item>
+        <item>長押し</item>
+        <item>ボタン</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_mi_band_4_gtr">
+        <item>なし</item>
+        <item>ミュートボタン</item>
+        <item>2回タッチ</item>
+        <item>3回タッチ</item>
+        <item>電源ボタン</item>
+        <item>機能ボタン</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_amazfit_bip_cor">
+        <item>なし</item>
+        <item>緑ボタン</item>
+        <item>2回タッチ</item>
+        <item>3回タッチ</item>
+        <item>赤ボタン</item>
+        <item>ボタン</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_values">
+        <item>NONE</item>
+        <item>TOUCH</item>
+        <item>DOUBLE_TOUCH</item>
+        <item>TRIPLE_TOUCH</item>
+        <item>LONG_TOUCH</item>
+        <item>BUTTON</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method">
+        <item>パターン認識</item>
+        <item>ボタンを押した回数</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_values">
+        <item></item>
+        <item>COUNTING</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_mi_band_3">
+        <item>省電力</item>
+        <item>省電力 (+pulse)</item>
+<!--        <item>省電力 (find phone)</item>-->
+<!--        <item>省電力 (pulse and find phone)</item>-->
+        <item>Performance</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_mi_band_3_values">
+        <item></item>
+        <item>PULSE</item>
+<!--        <item>FIND</item>-->
+<!--        <item>PULSE_FIND</item>-->
+        <item>PERFORMANCE</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger">
+        <item>なし</item>
+        <item>タッチ</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_button">
+        <item>なし</item>
+        <item>ボタン押し</item>
+        <item>ボタン長押し</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_values">
+        <item>NONE</item>
+        <item>PATTERN</item>
+        <item>LONG_PRESS</item>
+    </string-array>
+
+    <string-array name="pref_weather_provider_values">
+        <item>OPEN_天気_MAP</item>
+        <item>DARK_SKY</item>
+        <item>ACCU_WEATHER</item>
+    </string-array>
+
+    <string-array name="pref_weather_unit">
+        <item>摂氏 °C</item>
+        <item>華氏 °F</item>
+    </string-array>
+
+    <string-array name="pref_weather_unit_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+    <string-array name="pref_weather_current_display">
+        <item>現在気温</item>
+        <item>現在気温, 降水量, 雲量</item>
+        <item>平均気温</item>
+        <item>午前, 午後</item>
+    </string-array>
+
+    <string-array name="pref_weather_current_display_values">
+        <item>CURRENT</item>
+        <item>CURRENT_PRECIP_CC</item>
+        <item>AVERAGE</item>
+        <item>AM_PM</item>
+    </string-array>
+
+    <string-array name="pref_weather_forecast_display">
+        <item現在気温</item>
+        <!--<item>現在気温, 降水量, 雲量</item>-->
+        <item>午前, 午後</item>
+    </string-array>
+
+    <string-array name="pref_weather_forecast_display_values">
+        <item>AVERAGE</item>
+        <!--<item>AVERAGE_PRECIP_CC</item>-->
+        <item>AM_PM</item>
+    </string-array>
+
+    <string-array name="widget_event">
+        <item>Bandages screen</item>
+        <item>Activity screen</item>
+        <item>Pulse screen</item>
+        <item>Pulse measurement</item>
+        <item>Alarm screen</item>
+        <item>Reminder screen</item>
+    </string-array>
+
+    <string-array name="widget_event_values">
+        <item>LAUNCH_BANDAGES</item>
+        <item>LAUNCH_ACTIVITY</item>
+        <item>LAUNCH_PULSE</item>
+        <item>ACTION_PULSE</item>
+        <item>LAUNCH_TIME_ALARM</item>
+        <item>LAUNCH_REMINDER</item>
+    </string-array>
+
+    <string-array name="pref_language">
+        <item>Default</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Türkçe</item>
+        <item>Polish</item>
+        <item>Tiếng Việt</item>
+        <item>Deutsche</item>
+        <item>Nederlands</item>
+        <item>Čeština</item>
+        <item>Français</item>
+        <item>Norsk</item>
+        <item>Ελληνικά</item>
+        <item>Indonesia</item>
+        <item>Română</item>
+        <item>中文</item>
+        <item>한국어</item>
+        <item>日本語</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>es</item>
+        <item>it</item>
+        <item>tr</item>
+        <item>pl</item>
+        <item>vi</item>
+        <item>de</item>
+        <item>nl</item>
+        <item>cs</item>
+        <item>fr</item>
+        <item>no</item>
+        <item>el</item>
+        <item>in</item>
+        <item>ro</item>
+        <item>zh</item>
+        <item>ko</item>
+        <item>jp</item>
+    </string-array>
+
+    <string-array name="pref_language_mi_band_3">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default (by phone)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
+    </string-array>
+
+    <string-array name="pref_language_mi_band_3_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>pt_PT</item>
+        <item>ru_RU</item>
+        <item>uk_UA</item>
+        <item>de_DE</item>
+        <item>it_IT</item>
+        <item>fr_FR</item>
+        <item>pl_PL</item>
+        <item>nl_NL</item>
+        <item>tr_TR</item>
+        <item>id_ID</item>
+        <item>ko_KO</item>
+        <item>vi_VN</item>
+        <item>th_TH</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>ja_JP</item>
+        <item>ar_SA</item>
+    </string-array>
+
+    <string-array name="pref_language_mi_band_4">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default (by phone)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
+    </string-array>
+
+    <string-array name="pref_language_mi_band_4_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>pt_PT</item>
+        <item>ru_RU</item>
+        <item>uk_UA</item>
+        <item>de_DE</item>
+        <item>it_IT</item>
+        <item>fr_FR</item>
+        <item>pl_PL</item>
+        <item>nl_NL</item>
+        <item>tr_TR</item>
+        <item>id_ID</item>
+        <item>ko_KO</item>
+        <item>vi_VN</item>
+        <item>th_TH</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>ja_JP</item>
+        <item>ar_SA</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_watch">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default (by phone)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Italiano</item>
+        <item>Deutsche</item>
+        <item>Français</item>
+        <item>Türkçe</item>
+        <item>한국어</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>日本語</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_watch_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>pt_BR</item>
+        <item>ru_RU</item>
+        <item>it_IT</item>
+        <item>de_DE</item>
+        <item>fr_FR</item>
+        <item>tr_TR</item>
+        <item>ko_KO</item>
+        <item>zh_TW</item>
+        <item>zh_CH</item>
+        <item>zh_CN</item>
+        <item>ja_JP</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default (by phone)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Русский</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>ru_RU</item>
+        <item>zh_TW</item>
+        <item>zh_CN</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_gtr">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default (by phone)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_gtr_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>pt_BR</item>
+        <item>ru_RU</item>
+        <item>uk_UA</item>
+        <item>de_DE</item>
+        <item>it_IT</item>
+        <item>fr_FR</item>
+        <item>pl_PL</item>
+        <item>nl_NL</item>
+        <item>tr_TR</item>
+        <item>id_ID</item>
+        <item>ko_KO</item>
+        <item>vi_VN</item>
+        <item>th_TH</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>ja_JP</item>
+        <item>ar_SA</item>
+    </string-array>
+</resources>
